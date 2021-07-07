@@ -38,6 +38,7 @@ import {
 
 import widgetRules from "./widgetRules";
 import toolbarItems from "./toolbarItems";
+import "./toast.css";
 
 const previewStyle = "vertical";
 
