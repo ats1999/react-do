@@ -9,3 +9,8 @@
 @import url("prismjs/themes/prism-okaidia.css");
 @import url("katex/dist/katex.min.css");
 @import url("mde10/dist/toast.css");
+@import url("mdv10/dist/toast.css");
+
+body{
+    padding: 10px;
+}
