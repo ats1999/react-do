@@ -7,7 +7,6 @@ export default function EditCurrent() {
       getMd={(md) => {
         localStorage.md = md;
       }}
-
       // initialize this at first
       initialValue={localStorage.md}
     />
