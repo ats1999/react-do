@@ -13,6 +13,9 @@ import EditorLightAll from "./editor-all-light";
 import EditorWYSWYG from "./editor-wyswyg";
 import ViewerDark from "./viewer-dark";
 import ViewerLight from "./viewer-light";
+
+import EditCurrent from "./EditCurrent";
+import ViewCurrent from "./ViewCurrentDark";
 // imp
 import "./App.css";
 
@@ -23,7 +26,9 @@ const links = [
   ["Editor light all","/editor-light-all",<EditorLightAll/>],
   ["Editor WYSWYG","/editor-wyswyg",<EditorWYSWYG/>],
   ["Viewer dark","/viewer-dark",<ViewerDark/>],
-  ["Viewer light","/viewer-light",<ViewerLight/>]
+  ["Viewer light","/viewer-light",<ViewerLight/>],
+  ["EditCurrent", "EditCurrent", <EditCurrent/>],
+  ["ViewCurrent", "ViewCurrent", <ViewCurrent/>]
 ]
 
 const Nav=()=>{
