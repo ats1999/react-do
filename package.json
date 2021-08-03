@@ -7,7 +7,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@toast-ui/editor-plugin-chart": "^3.0.1",
-    "mde10": "^1.0.11",
+    "mde10": "^1.0.14",
     "mdv10": "^1.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
