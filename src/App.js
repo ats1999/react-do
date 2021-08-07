@@ -19,8 +19,6 @@ import CreateNote from "./CreateNode";
 import ViewNoteDark from "./ViewNoteDark";
 
 import "./App.css";
-// import '@elastic/eui/dist/eui_theme_light.css';
-import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
 const links = [
   ["Editor light","/editor-light",<EditorLight/>],
   ["Editor dark","/editor-dark",<EditorDark/>],
