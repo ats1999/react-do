@@ -6,29 +6,32 @@ import {
   Link
 } from "react-router-dom";
 
-import EditorLight from "./editor-light";
-import EditorDark from "./editor-dark";
-import EditorDarkAll from "./editor-all-dark";
-import EditorLightAll from "./editor-all-light";
-import EditorWYSWYG from "./editor-wyswyg";
-import ViewerDark from "./viewer-dark";
-import ViewerLight from "./viewer-light";
+import NewMarkdown  from "./NewMarkdown";
+// import EditorLight from "./editor-light";
+// import EditorDark from "./editor-dark";
+// import EditorDarkAll from "./editor-all-dark";
+// import EditorLightAll from "./editor-all-light";
+// import EditorWYSWYG from "./editor-wyswyg";
+// import ViewerDark from "./viewer-dark";
+// import ViewerLight from "./viewer-light";
 
-import CreateNote from "./CreateNode";
-import ViewNoteDark from "./ViewNoteDark"
-// imp
-import "./App.css";
+// import CreateNote from "./CreateNode";
+// import ViewNoteDark from "./ViewNoteDark";
 
+// import "./App.css";
+// import '@elastic/eui/dist/eui_theme_light.css';
+import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
 const links = [
-  ["Editor light","/editor-light",<EditorLight/>],
-  ["Editor dark","/editor-dark",<EditorDark/>],
-  ["Editor dark all","/editor-dark-all",<EditorDarkAll/>],
-  ["Editor light all","/editor-light-all",<EditorLightAll/>],
-  ["Editor WYSWYG","/editor-wyswyg",<EditorWYSWYG/>],
-  ["Viewer dark","/viewer-dark",<ViewerDark/>],
-  ["Viewer light", "/viewer-light", <ViewerLight />],
-  ["CreateNote", "/CreateNote", <CreateNote />],
-  ["ViewNoteDark", "/ViewNoteDark", <ViewNoteDark />]
+  // ["Editor light","/editor-light",<EditorLight/>],
+  // ["Editor dark","/editor-dark",<EditorDark/>],
+  // ["Editor dark all","/editor-dark-all",<EditorDarkAll/>],
+  // ["Editor light all","/editor-light-all",<EditorLightAll/>],
+  // ["Editor WYSWYG","/editor-wyswyg",<EditorWYSWYG/>],
+  // ["Viewer dark","/viewer-dark",<ViewerDark/>],
+  // ["Viewer light", "/viewer-light", <ViewerLight />],
+  // ["CreateNote", "/CreateNote", <CreateNote />],
+  // ["ViewNoteDark", "/ViewNoteDark", <ViewNoteDark />],
+  ["NewMarkdown", "/NewMarkdown", <NewMarkdown/>]
 ]
 
 const Nav=()=>{
