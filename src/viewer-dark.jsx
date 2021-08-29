@@ -11,8 +11,7 @@ export default function ViewerDark() {
   }, []);
   return (
     <Viewer
-      md={`
-# Hello, i am [Rahul](https://ats1999.github.io)
+      md={`# Hello, i am a Editor
 > Features of this editor
 ## Heading support
 \`\`\`js

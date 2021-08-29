@@ -4,8 +4,7 @@ export default function EditorLightAll() {
   return (
     <Editor
       theme="light"
-      initialValue={`
-# Hello, i am [Rahul](https://ats1999.github.io)
+      initialValue={`# Hello, i am a Editor
 > Features of this editor
 ## Heading support
 # - h1

@@ -18,5 +18,7 @@ import React from "react";
 import E from "mde10";
 import V from "mdv10";
 
-export const Editor = E;
+export const Editor = (props)=>{
+    return <E {...props}/>
+}
 export const Viewer = V;

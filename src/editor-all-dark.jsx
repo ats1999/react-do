@@ -3,8 +3,7 @@ import { Editor } from "./Md";
 export default function EditorDarkAll() {
   return (
     <Editor
-      initialValue={`
-# Hello, i am [Rahul](https://ats1999.github.io)
+      initialValue={`# Hello, i am a Editor
 > Features of this editor
 ## Heading support
 # - h1

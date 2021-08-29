@@ -7,8 +7,8 @@ import {
   EuiButton,
 } from "@elastic/eui";
 
-// import '@elastic/eui/dist/eui_theme_light.css';
-import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
+import '@elastic/eui/dist/eui_theme_light.css';
+// import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
 const initialContent = `## Hello world!
 
 Basic "github flavored" markdown will work as you'd expect.
